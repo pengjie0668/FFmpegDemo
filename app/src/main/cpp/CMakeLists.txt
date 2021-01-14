@@ -5,7 +5,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")
 
 # 1. 定义so库和头文件所在目录，方面后面使用
 set(ffmpeg_lib_dir ${CMAKE_SOURCE_DIR}/../jniLibs/${ANDROID_ABI})
-set(ffmpeg_head_dir ${CMAKE_SOURCE_DIR}/ffmpeg)
+set(ffmpeg_head_dir ${CMAKE_SOURCE_DIR})
 
 # 2. 添加头文件目录
 include_directories(${ffmpeg_head_dir}/include)
